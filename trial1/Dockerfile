@@ -1,4 +1,4 @@
-FROM python:latest
+FROM python:3.6.5-slim
 LABEL maintainer="Simon <1715861008@qq.com>"
 WORKDIR /app
 COPY . /app
