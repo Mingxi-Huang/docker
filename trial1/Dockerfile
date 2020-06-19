@@ -1,0 +1,6 @@
+FROM python:latest
+LABEL maintainer="Simon <1715861008@qq.com>"
+WORKDIR /app
+COPY . /app
+RUN pip --no-cache-dir install numpy pandas seaborn sklearn jupyter
+EXPOSE 8888
